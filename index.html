@@ -4,23 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Thinking Cat</title>
+
+  <!-- Load Libertinus Sans (closest available build via CDN) -->
+  <link href="https://fonts.cdnfonts.com/css/libertinus-sans" rel="stylesheet">
+
   <style>
     body {
       display: flex;
-      justify-content: center;   /* center horizontally */
-      align-items: flex-start;   /* move to the top */
+      flex-direction: column;    /* stack cat + text */
+      justify-content: flex-start;
+      align-items: center;
       height: 100vh;
       margin: 0;
-      padding-top: 40px;         /* spacing from very top */
+      padding-top: 40px;
       background: #ffffff;
+      text-align: center;
+      font-family: 'Libertinus Sans', sans-serif;
     }
     img {
-      max-width: 300px;          /* smaller width */
-      height: auto;              /* keep aspect ratio */
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;       /* spacing below cat */
+    }
+    .description {
+      max-width: 600px;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <img src="./thinkingcat.gif" alt="Thinking Cat" />
+  <div class="description">
+    Economics Student @ Lazaridis School of Business and Economics. <br>
+    Currently learning about Monetary Policy and Global Financial Markets.
+  </div>
 </body>
 </html>
