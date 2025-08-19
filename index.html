@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Thinking Cat</title>
   <style>
-    html, body { height: 100%; margin: 0; }
     body {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #ffffff; /* keep it blank */
+      justify-content: center;   /* center horizontally */
+      align-items: flex-start;   /* move to the top */
+      height: 100vh;
+      margin: 0;
+      padding-top: 40px;         /* spacing from very top */
+      background: #ffffff;
     }
-    img { max-width: 90vw; max-height: 90vh; height: auto; }
+    img {
+      max-width: 300px;          /* smaller width */
+      height: auto;              /* keep aspect ratio */
+    }
   </style>
 </head>
 <body>
