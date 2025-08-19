@@ -11,33 +11,36 @@
   <style>
     body {
       display: flex;
-      flex-direction: column;     /* stack cat + text */
-      justify-content: center;    /* center vertically */
-      align-items: center;        /* center horizontally */
+      flex-direction: column;     
+      justify-content: center;    
+      align-items: center;        
       height: 100vh;
       margin: 0;
       background: #ffffff;
-      text-align: center;
       font-family: 'Libertinus Sans', sans-serif;
+      text-align: center;         /* ensure text itself is centered */
     }
     img {
       max-width: 300px;
       height: auto;
-      margin-bottom: 20px;        /* spacing below cat */
+      margin-bottom: 20px;        
     }
     .description {
-      max-width: 600px;
+      max-width: 500px;           /* narrower for better centering */
       font-size: 18px;
-      line-height: 1.5;
+      line-height: 1.6;
       color: #333;
+      margin: 0 auto;             /* centers block itself */
     }
   </style>
 </head>
 <body>
   <img src="./thinkingcat.gif" alt="Thinking Cat" />
   <div class="description">
-    Hi, I'm Aidan. I'm an Economics Student @ The Lazaridis School of Business and Economics minoring in Statistics &amp; Computer Science. <br>
-    I'm currently learning about Monetary Policy and Global Financial Markets. Feel free to reach out to me at clar8966@mylaurier.ca
+    Hi, I'm Aidan. I'm an Economics Student @ The Lazaridis School of Business 
+    and Economics minoring in Statistics &amp; Computer Science. <br><br>
+    I'm currently learning about Monetary Policy and Global Financial Markets. <br><br>
+    Feel free to reach out to me at <strong>clar8966@mylaurier.ca</strong>.
   </div>
 </body>
 </html>
