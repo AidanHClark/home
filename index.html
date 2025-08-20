@@ -16,6 +16,21 @@
       font-family: 'Libertinus Sans', sans-serif;
       position: relative;
     }
+    .top-links {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      display: flex;
+      gap: 20px;
+    }
+    .top-links a {
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+    }
+    .top-links a:hover {
+      text-decoration: underline;
+    }
     .container {
       display: flex;
       flex-direction: column;
@@ -35,21 +50,14 @@
       line-height: 1.5;
       color: #333;
     }
-    .linkedin-link {
-      position: absolute;
-      top: 15px;
-      left: 20px;
-      font-size: 16px;
-      color: #333;
-      text-decoration: none;
-    }
-    .linkedin-link:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
-  <a class="linkedin-link" href="https://www.linkedin.com/in/aidanclark212/" target="_blank">LinkedIn</a>
+  <div class="top-links">
+    <a href="https://www.linkedin.com/in/aidanclark212/" target="_blank">LinkedIn</a>
+    <a href="#">Resume</a>
+  </div>
+
   <div class="container">
     <img src="https://render.fineartamerica.com/images/rendered/default/print/8/8/break/images/artworkimages/medium/3/1-the-waterlily-pond-with-the-japanese-bridge-claude-monet.jpg" alt="Water Lily Pond with Japanese Bridge by Monet" />
     <div class="description">
